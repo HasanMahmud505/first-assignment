@@ -75,10 +75,17 @@
     padding-top: 20px;
     padding-right: 150px;
     line-height: 30px;
+    margin-bottom: 20px;
 }
 ol{
-    list-style-type:square;
-    padding-top: 20px;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+li::before {
+    content: "#";
+    padding-right: 8px;
+    color: blue; 
 }
 ol li{
     color: #444343;
@@ -218,3 +225,5 @@ footer{
     border-radius: 5px;
     outline: none;
 }
+
+/* style end */
